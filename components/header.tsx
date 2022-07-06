@@ -1,8 +1,8 @@
-import styles from '../../styles/Header.module.scss';
+import styles from '../styles/Header.module.scss';
 
 function Header() {
   return (
-    <div id={styles.home} className={styles.header}>
+    <div id="home" className={styles.header}>
       <h3>
         <p>
           I<span>'</span>m
