@@ -15,14 +15,14 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    color: var(--text-pri);
+    color: $text-pri;
     transition: 0.2s ease;
     overflow: hidden;
     &.pri {
-      border: 2px solid var(--color-sec);
+      border: 2px solid $color-sec;
       &:hover {
         border: none;
-        background-color: var(--color-sec);
+        background-color: $color-sec;
         &::before {
           position: absolute;
           content: "";
@@ -58,9 +58,9 @@
       }
     }
     &.sec {
-      background-color: var(--color-pri-light);
+      background-color: $color-pri-light;
       &:hover {
-        border: 2px solid var(--color-pri);
+        border: 2px solid $color-pri;
         background-color: transparent;
         &::before {
           position: absolute;
@@ -120,7 +120,7 @@
       justify-content: center;
       align-items: center;
       cursor: pointer;
-      color: var(--text-pri);
+      color: $text-pri;
       transition: 0.2s ease;
       overflow: hidden;
       backdrop-filter: blur(20px);
@@ -143,7 +143,7 @@
       justify-content: center;
       align-items: center;
       cursor: pointer;
-      color: var(--text-pri);
+      color: $text-pri;
       transition: 0.2s ease;
       overflow: hidden;
       backdrop-filter: blur(20px);
@@ -166,7 +166,7 @@
       justify-content: center;
       align-items: center;
       cursor: pointer;
-      color: var(--text-pri);
+      color: $text-pri;
       transition: 0.2s ease;
       overflow: hidden;
       backdrop-filter: blur(20px);

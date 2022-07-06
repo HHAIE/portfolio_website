@@ -4,8 +4,9 @@ import Image from 'next/image'
 import styles from '../styles/Main.module.scss'
 import Header from "../components/header";
 import Nav from "../components/nav";
+import Home from "../components/home";
 
-const Home: NextPage = () => {
+const Main: NextPage = () => {
   return (
     <>
     <Head>
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
       
       <Header />
       <Nav />
+      <Home />
     </>
     // <div className={styles.container}>
       
@@ -31,4 +33,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Main

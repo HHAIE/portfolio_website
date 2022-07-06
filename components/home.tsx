@@ -1,30 +1,31 @@
-import './home.css';
+import styles from '../styles/Home.module.scss';
 import img from '../props/img2.jpg';
-import Buttons from '../button/button';
+import Buttons from './button';
 import { BsMouse } from 'react-icons/bs';
+import Image from 'next/image';
 
 function Home() {
   return (
-    <div id='home' className='container home-container'>
-      <div className='logo'>
-        <div className='hover-show'>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
-          <span className='circle'></span>
+    <div id='home' className={styles['home-container']}>
+      <div className={styles['logo']}>
+        <div className={styles['hover-show']}>
+          <span className={styles.circle}></span>
+          <span className={styles.circle}></span>
+          <span className={styles.circle}></span>
+          <span className={styles.circle}></span>
+          <span className={styles.circle}></span>
+          <span className={styles.circle}></span>
+          <span className={styles.circle}></span>
+          <span className={styles.circle}></span>
         </div>
 
-        <img src={img} alt='' />
+        <Image src={img} alt='' />
       </div>
 
-      <a href='#footer' className='scroll-down'>
+      <a href='#footer' className={styles['scroll-down']}>
         <hr />
         <h5>scroll down</h5>
-        <BsMouse className='scroll' />
+        <BsMouse className={styles.scroll} />
         <hr />
       </a>
 
