@@ -6,6 +6,7 @@ import Header from "../components/header";
 import Nav from "../components/nav";
 import Home from "../components/home";
 import About from "../components/about";
+import Member from "../components/member";
 
 const Main: NextPage = () => {
   return (
@@ -28,6 +29,7 @@ const Main: NextPage = () => {
       <Nav />
       <Home />
       <About />
+      <Member />
     </>
     // <div className={styles.container}>
       
