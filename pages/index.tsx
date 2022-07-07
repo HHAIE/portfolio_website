@@ -8,6 +8,7 @@ import Home from "../components/home";
 import About from "../components/about";
 import Member from "../components/member";
 import Contact from "../components/contact";
+import Footer from "../components/footer";
 
 const Main: NextPage = () => {
   return (
@@ -32,6 +33,7 @@ const Main: NextPage = () => {
       <About />
       <Member />
       <Contact />
+      <Footer />
     </>
     // <div className={styles.container}>
       
