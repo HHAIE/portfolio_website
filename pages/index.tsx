@@ -7,6 +7,7 @@ import Nav from "../components/nav";
 import Home from "../components/home";
 import About from "../components/about";
 import Member from "../components/member";
+import Contact from "../components/contact";
 
 const Main: NextPage = () => {
   return (
@@ -30,6 +31,7 @@ const Main: NextPage = () => {
       <Home />
       <About />
       <Member />
+      <Contact />
     </>
     // <div className={styles.container}>
       
