@@ -1,10 +1,10 @@
 import styles from "../styles/About.module.scss";
-import Qualifications from "./qualifications";
+import Qualification from "./qualification";
 
 function About() {
   return (
     <div id="about" className={styles["about-container"]}>
-      <Qualifications />
+      <Qualification />
     </div>
   );
 }

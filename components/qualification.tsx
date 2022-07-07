@@ -1,6 +1,6 @@
 import styles from "../styles/Qualification.module.scss";
 
-const Qualifications = () => {
+const Qualification = () => {
   return (
     <div>
       <span className={styles["quali-text"]}>My Qualifications</span>
@@ -42,4 +42,4 @@ const Qualifications = () => {
   );
 };
 
-export default Qualifications;
+export default Qualification;

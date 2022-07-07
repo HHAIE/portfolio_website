@@ -5,6 +5,7 @@ import styles from '../styles/Main.module.scss'
 import Header from "../components/header";
 import Nav from "../components/nav";
 import Home from "../components/home";
+import About from "../components/about";
 
 const Main: NextPage = () => {
   return (
@@ -26,6 +27,7 @@ const Main: NextPage = () => {
       <Header />
       <Nav />
       <Home />
+      <About />
     </>
     // <div className={styles.container}>
       
